@@ -5,3 +5,8 @@ redesign and implement new features to the old Florida Educational Research Asso
 worked on the overall aesthetics of the site, utilizing Bootstrap primarily for the overall structure. It is still
 a work in progress but we hope that FERA will decide to use our project site when it is complete.
 
+Preview of the page: http://cop4813.ccec.unf.edu/~group8/
+(Work in progress)
+
+Original FERA website:
+http://www.feraonline.org/
