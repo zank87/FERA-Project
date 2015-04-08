@@ -1,0 +1,185 @@
+/*
+Theme Name: FERA Project
+Author: John Zank
+Author URI: N/A
+Description: A theme created soley for FERA's website. The website itself was created and designed by students of Dr. Albert Ritzhaupt in his Internet Programming course at the University of North Florida. The group consists of John Zank, Jaegun Sim, Tina Hierholzer, Casey Parker, and Christian Crawford. 
+Version: 1.0
+*/
+
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+.logged-in .navbar-fixed-top {
+	margin-top: 25px;
+}
+
+@media (min-width:768px) {
+	.sub-menu {
+		display: none;
+		position: absolute;
+		background: rgba(245,245,245, .85);
+		padding: 10px 15px;
+		width: 200px;		
+	}
+
+	li:hover .sub-menu {
+		display: block;
+	}
+
+}
+
+.sub-menu li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.sub-menu li:last-child {
+	margin-bottom: 0;
+}
+
+.sub-menu a  {
+	color: #999;
+	text-decoration: none;
+}
+
+.sub-menu a:hover  {
+	color: #000;	
+}	
+
+
+.current-menu-parent li a {
+	background: inherit;
+}
+.current-menu-parent .current-menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.sidebar {
+	margin-top: 40px;
+}
+
+.widget {
+	margin: 10px 0 30px;
+}
+
+.widget h4 {
+	color: #888;
+}
+
+.portfolio-piece {
+	margin-bottom: 20px;
+}
+
+.featured-image img,
+.portfolio-piece img {
+	max-width: 100%;
+}
+
+.prev-next {
+	font-size: 24px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+@media (max-width: 530px) {
+	.prev-next {
+		margin-top: 35px;
+		font-size: 18px;
+	} 
+}
+
+.jumbotron {
+	background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('http://cop4813.ccec.unf.edu/~group8/wp-content/uploads/2015/04/Florida_beach.jpg') no-repeat center;
+	background-size: cover;
+	height: 800px;
+	margin: -50px;
+}
+
+.navbar-default {
+	background-color: rgba(0,0,0,0);
+	border-color: rgba(0,0,0,0);
+	color: #000;
+}
+
+.top-nav-collapse {
+	background-color: #fff;
+	border-color: #e7e7e7;
+	border-width: 0 0 1px;
+}
+
+.sub-menu .sub-menu {
+	margin-left: 185px;
+	margin-bottom: 100px;
+}
+
+.jumbo-text > h1 {
+	margin-top: 200px;
+	color: rgba(255,255,255, .85);
+	font-size: 8em;
+}
+
+.small-text {
+	color: rgba(255,255,255, .85);
+}
+
+.main-padding{
+	padding: 100px;
+}
+
+.btn-default{
+	background-color: rgba(0,0,0,0);
+	border-radius: 23px;
+	border-color: #fff;
+	color: #fff;
+	padding-top: 5px;
+}
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+       -moz-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
